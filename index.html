@@ -14,29 +14,32 @@
     <div class="background">
 
         <header>
-            <h1><a href="#about"><img src="img\icon.png" alt="icon" /></a></h1>
+            <div class="icon"><a href="#about"><img src="img\icon.png" alt="icon" /></a></div>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li>
                         <a href="#main-visual">Home</a>
                     </li>
                     <li>
                         <a href="#works">Works</a>
                     </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
+                    <li><a href="#about">About</a></li>
                 </ul>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>            
             </nav>
         </header>
 
         <main>
-            <section id="main-visual">
+            <section id='main-visual' class="main-visual">
                 <p>arikana</p>
                 <p>This is my portfolio.</p>         
             </section>
 
-            <section id="works">
+            <section id='works' class="works">
                 <h2>Works</h2>
                 <ul>
                     <li>
@@ -55,13 +58,13 @@
                 </ul>
             </section>
             
-            <section id="about">
+            <section id='about' class="about">
                 <h2>About</h2>
-                <div id="author-detail">
+                <div class="author-detail">
                     <div>
                         <img src="img\author.png" alt="about" />
                     </div>
-                    <div id ="profile">
+                    <div class ="profile">
                         <p>Arikana</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dicta dignissimos repudiandae illum voluptatem consequatur officia excepturi ullam deleniti quaerat.</p>
                     </div>
@@ -74,6 +77,6 @@
         </footer>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

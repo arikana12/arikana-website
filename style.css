@@ -9,6 +9,7 @@
 
 h2{
     height:10vh;
+    margin-top:100px;
 }
 
 a{
@@ -59,7 +60,7 @@ header nav{
  } 
 
  .icon{
-    width:20%;
+    width:30%;
  }
 
  .icon a img{
@@ -67,6 +68,7 @@ header nav{
     border: solid 1px black;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
  }
 
  .main-visual{
@@ -263,6 +265,10 @@ footer{
         position: fixed;
     }
 
+    .icon{
+        width:70%;
+    }
+
     .hamburger{
         visibility:visible;
     }
@@ -295,7 +301,14 @@ footer{
     }
 }
 
-@media (max-width: 350px) {
+
+@media (max-width: 500px) {
+    .icon{
+        width:100%;
+    }
+    header{
+        padding:10px 10px;
+    }
 
     .author-detail div img{
         width: 200px;
